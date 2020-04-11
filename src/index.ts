@@ -1,7 +1,9 @@
-let result=5;
-for(let i=1;i<=5;i++){
-    result=result+i;
-}
-let b=result
-console.log('Hello World');
-console.log(`your result is ${result}`);
+/**
+ * This is a TypeScript Starter project
+ * which contains basic less style compile, grunt and jsDoc
+ * @param {string} userName
+ * @param {number} age
+ */
+let userName:string="John Wei";
+let age:number=36;
+console.log(`Hello ${userName}, your age is ${age}`);
