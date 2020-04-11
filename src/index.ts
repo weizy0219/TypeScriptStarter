@@ -1,9 +1,14 @@
 /**
  * This is a TypeScript Starter project
  * which contains basic less style compile, grunt and jsDoc
- * @param {string} userName
- * @param {number} age
+ * @param {msg} userName
+ * @returns a boolean result which always true
  */
-let userName:string="John Wei";
-let age:number=36;
-console.log(`Hello ${userName}, your age is ${age}`);
+
+
+export  function hello(msg:string){
+    console.log(`hello ${msg}`);
+    return true;
+}
+
+hello('world');

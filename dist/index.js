@@ -1,5 +1,9 @@
 "use strict";
-var userName = "John Wei";
-var age = 36;
-console.log("Hello " + userName + ", your age is " + age);
+Object.defineProperty(exports, "__esModule", { value: true });
+function hello(msg) {
+    console.log("hello " + msg);
+    return true;
+}
+exports.hello = hello;
+hello('world');
 //# sourceMappingURL=index.js.map

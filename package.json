@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "npm run tsc && npm run serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-cov": "jest --coverage",
     "watch-ts": "tsc -w",
     "tsc": "tsc",
     "serve": "node dist/index.js",
@@ -27,12 +28,15 @@
   },
   "homepage": "https://github.com/weizy0219/TypeScriptStarter#readme",
   "devDependencies": {
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.11.1",
     "grunt": "^1.1.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-ts": "^6.0.0-beta.22",
+    "jest": "^25.3.0",
     "less": "^3.11.1",
+    "ts-jest": "^25.3.1",
     "ts-node": "^8.8.2",
     "typedoc": "^0.17.4",
     "typescript": "^3.8.3"
