@@ -21,7 +21,19 @@ The `helloworld` branch is intend to cover most of above functions except web de
 
 The project is build with VS Code, and it is strongly recommanded to install `TypeScript Hero` 
 - clone current project and run `npm install` under root dir
-- Run `grunt` 
+- Run `grunt` to start compile and watch
+- See `package.json` and `Gruntfile.js` for detailed command
+
+Some scaffold initial sample as following, you can follow the steps to start your own project:
+1. To compile typescript and initialize a project
+![scaffold1](./img/scaffold1.gif)
+
+2. To setup the project file structure of a project:
+![scaffold2](./img/scaffold2.gif)
+
+3. To setup and use grunt
+![scaffold3](./img/scaffold3_grunt.gif)
+
 
 ## 3. Functions
 
