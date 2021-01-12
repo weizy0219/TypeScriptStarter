@@ -5,5 +5,3 @@ node_modules
 *.local
 
 compiled_files
-./dist/*
-./docs/*
